@@ -57,7 +57,7 @@
       "",
       "module.exports = {",
       "  data: new SlashCommandBuilder()",
-      "    .setName(\"snippet\")",
+      "    .setName(\"$name\")",
       "    .setDescription(\"insert description here\"),",
       "",
       "  async execute(interaction: CommandInteraction) {",
