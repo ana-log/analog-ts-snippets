@@ -37,5 +37,42 @@
     ],
     "description": "Basic Slash Command "
   },
-  
+  "Basic Slash Command w/ Embed": {
+    "prefix": "anembcmd",
+    "body": [
+      "import {",
+      "  Interaction,",
+      "  EmbedBuilder,",
+      "  CommandInteractionOptionResolver,",
+      "  Message,",
+      "  CommandInteraction,",
+      "  ApplicationCommand,",
+      "  SlashCommandBuilder,",
+      "  SlashCommandStringOption,",
+      "  ActionRowBuilder,",
+      "  ButtonBuilder,",
+      "  ButtonStyle,",
+      "  MessageActionRowComponentBuilder,",
+      "} from \"discord.js\";",
+      "",
+      "module.exports = {",
+      "  data: new SlashCommandBuilder().setName(\"ping\").setDescription(\"pings you\"),",
+      "",
+      "  async execute(interaction: CommandInteraction) {",
+      "    try {",
+      "      // code here",
+      "      await interaction.reply(\"pong\");",
+      "    } catch (error) {",
+      "      await interaction.reply({",
+      "        content: \"There was an error\",",
+      "        ephemeral: true,",
+      "      });",
+      "      console.error(error);",
+      "    }",
+      "  },",
+      "};",
+      ""
+    ],
+    "description": "Basic Slash Command w/ Embed  "
+  }
 }
