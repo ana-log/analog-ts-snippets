@@ -255,5 +255,40 @@
       ""
     ],
     "description": "Selection Menu Interaction"
+  },
+  "Button Interaction": {
+    "prefix": "anbuttonint",
+    "body": [
+      "import {",
+      "  ActionRowBuilder,",
+      "  ButtonBuilder,",
+      "  ButtonInteraction,",
+      "  ButtonStyle,",
+      "  EmbedBuilder,",
+      "  MessageActionRowComponentBuilder,",
+      "  SelectMenuBuilder,",
+      "} from \"discord.js\";",
+      "import { client } from \"../../../index\";",
+      "",
+      "module.exports = {",
+      "  data: {",
+      "    name: `$TM_FILENAME_BASE`,",
+      "  },",
+      "  async execute(interaction: ButtonInteraction) {",
+      "    try {",
+      "      await interaction.reply(\"You pressed a button!\");",
+      "    } catch (error) {",
+      "      await interaction.reply({",
+      "        content: \"There was an error while pressing this button\",",
+      "        ephemeral: true,",
+      "      });",
+      "      console.error(error);",
+      "    }",
+      "  },",
+      "};",
+      "",
+      ""
+    ],
+    "description": "Button Interaction"
   }
 }
