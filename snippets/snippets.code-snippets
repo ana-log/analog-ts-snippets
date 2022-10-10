@@ -188,5 +188,35 @@
       "  ]);"
     ],
     "description": "Select Menu Builder"
+  },
+  "Modal Interaction": {
+    "prefix": "anmodalint",
+    "body": [
+      "import {",
+      "  ButtonInteraction,",
+      "  EmbedBuilder,",
+      "  ModalSubmitInteraction,",
+      "} from \"discord.js\";",
+      "import { client } from \"../../../index\";",
+      "",
+      "module.exports = {",
+      "  data: {",
+      "    name: `$TM_FILENAME_BASE`,",
+      "  },",
+      "  async execute(interaction: ModalSubmitInteraction) {",
+      "    try {",
+      "      await interaction.reply(\"You submitted a modal\");",
+      "    } catch (error) {",
+      "      await interaction.reply({",
+      "        content: \"There was an error with this modal\",",
+      "        ephemeral: true,",
+      "      });",
+      "      console.error(error);",
+      "    }",
+      "  },",
+      "};",
+      ""
+    ],
+    "description": "Modal Interaction"
   }
 }
