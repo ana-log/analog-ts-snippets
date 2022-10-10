@@ -158,5 +158,23 @@
       "        .setLabel(\"Put Label Here\");"
     ],
     "description": "Button Builder"
+  },
+  "Modal Builder": {
+    "prefix": "anmodal",
+    "body": [
+      "const modal = new ModalBuilder()",
+      "  .setTitle(`Modal Title`)",
+      "  .setCustomId(\"modalId\")",
+      "  .setComponents(",
+      "    new ActionRowBuilder<ModalActionRowComponentBuilder>().addComponents(",
+      "      new TextInputBuilder()",
+      "        .setLabel(`Modal Label`)",
+      "        .setStyle(TextInputStyle.Paragraph)",
+      "        .setPlaceholder(`Modal Placeholder Text`)",
+      "        .setCustomId(\"modal_id\")",
+      "    )",
+      "  )"
+    ],
+    "description": "Modal Builder"
   }
 }
