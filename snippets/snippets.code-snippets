@@ -113,7 +113,7 @@
   "Embed builder": {
     "prefix": "anembedbuilder",
     "body": [
-      "const embed = new EmbedBuilder()",
+      "new EmbedBuilder()",
       "        .setColor(`#6bde36`)",
       "        .setTitle(`Title Here`)",
       "        .setThumbnail(interaction.user?.avatarURL({ forceStatic: false })!)",
@@ -151,7 +151,7 @@
   "Button Builder": {
     "prefix": "anbutton",
     "body": [
-      "const button = new ButtonBuilder()",
+      "new ButtonBuilder()",
       "        .setCustomId(\"$name\")",
       "        .setEmoji(\"🤖\")",
       "        .setStyle(ButtonStyle.Primary)",
@@ -162,7 +162,7 @@
   "Modal Builder": {
     "prefix": "anmodal",
     "body": [
-      "const modal = new ModalBuilder()",
+      "new ModalBuilder()",
       "  .setTitle(`Modal Title`)",
       "  .setCustomId(\"modalId\")",
       "  .setComponents(",
