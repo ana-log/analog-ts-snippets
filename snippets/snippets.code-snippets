@@ -147,5 +147,16 @@
       "        });"
     ],
     "description": "Embed builder"
+  },
+  "Button Builder": {
+    "prefix": "anbutton",
+    "body": [
+      "const button = new ButtonBuilder()",
+      "        .setCustomId(\"$name\")",
+      "        .setEmoji(\"🤖\")",
+      "        .setStyle(ButtonStyle.Primary)",
+      "        .setLabel(\"Put Label Here\");"
+    ],
+    "description": "Button Builder"
   }
 }
