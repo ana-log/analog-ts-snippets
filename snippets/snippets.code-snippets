@@ -218,5 +218,42 @@
       ""
     ],
     "description": "Modal Interaction"
+  },
+  "Selection Menu Interaction": {
+    "prefix": "anselectmenuint",
+    "body": [
+      "import {",
+      "  ActionRow,",
+      "  ActionRowBuilder,",
+      "  ButtonInteraction,",
+      "  EmbedBuilder,",
+      "  ModalActionRowComponentBuilder,",
+      "  ModalBuilder,",
+      "  ModalSubmitInteraction,",
+      "  SelectMenuInteraction,",
+      "  TextInputBuilder,",
+      "  TextInputStyle,",
+      "} from \"discord.js\";",
+      "import { client } from \"../../../index\";",
+      "",
+      "module.exports = {",
+      "  data: {",
+      "    name: `$TM_FILENAME_BASE`,",
+      "  },",
+      "  async execute(interaction: SelectMenuInteraction) {",
+      "    try {",
+      "      await interaction.reply('You used a select menu')",
+      "    } catch (error) {",
+      "      await interaction.reply({",
+      "        content: \"There was an error with this selection menu\",",
+      "        ephemeral: true,",
+      "      });",
+      "      console.error(error);",
+      "    }",
+      "  },",
+      "};",
+      ""
+    ],
+    "description": "Selection Menu Interaction"
   }
 }
