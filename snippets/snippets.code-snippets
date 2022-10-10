@@ -176,5 +176,17 @@
       "  )"
     ],
     "description": "Modal Builder"
+  },
+  "Select Menu Builder": {
+    "prefix": "anselmenu",
+    "body": [
+      "new SelectMenuBuilder()",
+      "  .setCustomId(\"selectMenuId\")",
+      "  .setPlaceholder(\"Placeholder\")",
+      "  .setOptions([",
+      "    { label: \"option label\", value: \"option value\", emoji: \"😃\" }",
+      "  ]);"
+    ],
+    "description": "Select Menu Builder"
   }
 }
