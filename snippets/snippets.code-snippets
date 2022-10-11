@@ -400,7 +400,7 @@
       "      option",
       "        .setName(\"exampleName\")",
       "        .setDescription(",
-      "          \"Put either their uuid or minecraft username in this field.\"",
+      "          \"Put a description here\"",
       "        )",
       "        .setRequired(true)",
       "    )"
@@ -414,7 +414,7 @@
       "      option",
       "        .setName(\"exampleName\")",
       "        .setDescription(",
-      "          \"Put either their uuid or minecraft username in this field.\"",
+      "          \"Put a description here\"",
       "        )",
       "        .setRequired(true)",
       "    )"
