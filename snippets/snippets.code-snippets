@@ -518,5 +518,28 @@
       "    )"
     ],
     "description": "Attachment Option"
+  },
+  "Event": {
+    "prefix": "anevent",
+    "body": [
+      "import {",
+      "  CommandInteraction,",
+      "  Interaction,",
+      "  InteractionType,",
+      "  ChannelType,",
+      "} from \"discord.js\";",
+      "",
+      "//This logs all interactions",
+      "module.exports = {",
+      "  name: \"$TM_FILENAME_BASE\",",
+      "  execute(interaction: Interaction) {",
+      "    console.log(",
+      "      `${interaction.createdAt}: ${interaction.user.tag} triggered a ${interaction.type}.`",
+      "    );",
+      "  },",
+      "};",
+      ""
+    ],
+    "description": "Event"
   }
 }
