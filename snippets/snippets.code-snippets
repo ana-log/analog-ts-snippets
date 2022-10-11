@@ -476,5 +476,19 @@
       "    )"
     ],
     "description": "Integer Option"
+  },
+  "Number Option": {
+    "prefix": "annumberoption",
+    "body": [
+      ".addNumberOption((option) =>",
+      "      option",
+      "        .setName(\"exampleName\")",
+      "        .setDescription(",
+      "          \"Put a description here\"",
+      "        )",
+      "        .setRequired(true)",
+      "    )"
+    ],
+    "description": "Number Option"
   }
 }
