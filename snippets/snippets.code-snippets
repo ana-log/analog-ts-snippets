@@ -406,5 +406,19 @@
       "    )"
     ],
     "description": "String Option"
+  },
+  "Boolean Option": {
+    "prefix": "anbooleanoption",
+    "body": [
+      ".addBooleanOption((option) =>",
+      "      option",
+      "        .setName(\"exampleName\")",
+      "        .setDescription(",
+      "          \"Put either their uuid or minecraft username in this field.\"",
+      "        )",
+      "        .setRequired(true)",
+      "    )"
+    ],
+    "description": "Boolean Option"
   }
 }
