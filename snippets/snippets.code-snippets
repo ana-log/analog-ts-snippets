@@ -448,5 +448,19 @@
       "    )"
     ],
     "description": "Channel Option"
+  },
+  "Role Option": {
+    "prefix": "anroleoption",
+    "body": [
+      ".addRoleOption((option) =>",
+      "      option",
+      "        .setName(\"exampleName\")",
+      "        .setDescription(",
+      "          \"Put a description here\"",
+      "        )",
+      "        .setRequired(true)",
+      "    )"
+    ],
+    "description": "Role Option"
   }
 }
