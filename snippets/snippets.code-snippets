@@ -434,5 +434,19 @@
       "    )"
     ],
     "description": "User Option"
+  },
+  "Channel Option": {
+    "prefix": "anchanneloption",
+    "body": [
+      ".addChannelOption((option) =>",
+      "      option",
+      "        .setName(\"exampleName\")",
+      "        .setDescription(",
+      "          \"Put a description here\"",
+      "        )",
+      "        .setRequired(true)",
+      "    )"
+    ],
+    "description": "Channel Option"
   }
 }
