@@ -392,5 +392,19 @@
       ""
     ],
     "description": "Slash Command Interaction With Option"
+  },
+  "String Option": {
+    "prefix": "anstringoption",
+    "body": [
+      ".addStringOption((option) =>",
+      "      option",
+      "        .setName(\"exampleName\")",
+      "        .setDescription(",
+      "          \"Put either their uuid or minecraft username in this field.\"",
+      "        )",
+      "        .setRequired(true)",
+      "    )"
+    ],
+    "description": "String Option"
   }
 }
