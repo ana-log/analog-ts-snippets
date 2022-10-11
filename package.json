@@ -2,7 +2,7 @@
   "name": "analog-ts-snippets",
   "displayName": "Analog-TS-Snippets",
   "description": "This extension has several snippets that you can use to easily generate code for the analog-ts framework",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "engines": {
     "vscode": "^1.72.0"
   },
