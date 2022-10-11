@@ -9,6 +9,7 @@
   "categories": [
     "Snippets"
   ],
+  "publisher": "BossDaily",
   "contributes": {
     "snippets": [
       {
@@ -16,5 +17,6 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ]
-  }
+  },
+  "icon": "https://avatars.githubusercontent.com/u/110413696?s=200&v=4"
 }
