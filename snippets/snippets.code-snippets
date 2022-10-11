@@ -490,5 +490,19 @@
       "    )"
     ],
     "description": "Number Option"
+  },
+  "Mentionable Option": {
+    "prefix": "anmentionableoption",
+    "body": [
+      ".addMentionableOption((option) =>",
+      "      option",
+      "        .setName(\"exampleName\")",
+      "        .setDescription(",
+      "          \"Put a description here\"",
+      "        )",
+      "        .setRequired(true)",
+      "    )"
+    ],
+    "description": "Mentionable Option"
   }
 }
