@@ -550,5 +550,16 @@
       ");"
     ],
     "description": "Action Row Builder"
+  },
+  "Text Input Builder": {
+    "prefix": "antextinputbuilder",
+    "body": [
+      "new TextInputBuilder()",
+      "  .setLabel(`Modal Label`)",
+      "  .setStyle(TextInputStyle.Paragraph)",
+      "  .setPlaceholder(`Modal Placeholder Text`)",
+      "  .setCustomId(\"modal_id\");"
+    ],
+    "description": "Text Input Builder"
   }
 }
