@@ -541,5 +541,14 @@
       ""
     ],
     "description": "Event"
+  },
+  "Action Row Builder": {
+    "prefix": "anactionrowbuilder",
+    "body": [
+      "new ActionRowBuilder<MessageActionRowComponentBuilder>().addComponents(",
+      "$codehere",
+      ");"
+    ],
+    "description": "Action Row Builder"
   }
 }
