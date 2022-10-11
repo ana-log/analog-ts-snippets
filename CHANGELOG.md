@@ -7,3 +7,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Release]
 
 - Initial release
+
+## v1.1.0 - v1.2.0
+
+- Updated ReadME with relevant info
