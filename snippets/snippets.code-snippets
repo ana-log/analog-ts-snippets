@@ -561,5 +561,14 @@
       "  .setCustomId(\"modal_id\");"
     ],
     "description": "Text Input Builder"
+  },
+  "Modal Action Row Builder": {
+    "prefix": "anmodalactionrowbuilder",
+    "body": [
+      "new ActionRowBuilder<ModalActionRowComponentBuilder>().addComponents(",
+      "$codehere",
+      ")"
+    ],
+    "description": "Modal Action Row Builder"
   }
 }
