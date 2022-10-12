@@ -570,5 +570,15 @@
       ")"
     ],
     "description": "Modal Action Row Builder"
+  },
+  "Subcommand": {
+    "prefix": "ansubcmd",
+    "body": [
+      ".addSubcommand(subcommand =>",
+      "  subcommand",
+      "    .setName('name')",
+      "    .setDescription('description')"
+    ],
+    "description": "Subcommand"
   }
 }

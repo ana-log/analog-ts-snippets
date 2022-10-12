@@ -1,26 +1,32 @@
 {
-  "name": "analog-ts-snippets",
-  "displayName": "Analog-TS-Snippets",
-  "description": "This extension has several snippets that you can use to easily generate code for the analog-ts framework",
-  "version": "1.2.0",
-  "engines": {
-    "vscode": "^1.72.0"
-  },
-  "categories": [
-    "Snippets"
-  ],
-  "publisher": "BossDaily",
-  "contributes": {
-    "snippets": [
-      {
-        "language": "typescript",
-        "path": "./snippets/snippets.code-snippets"
-      }
-    ]
-  },
-  "icon": "img/icon.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ana-log/analog-ts-snippets.git"
-  }
+	"name": "analog-ts-snippets",
+	"displayName": "Analog-TS-Snippets",
+	"description": "This extension has several snippets that you can use to easily generate code for the analog-ts framework",
+	"version": "1.2.0",
+	"engines": {
+		"vscode": "^1.72.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"publisher": "BossDaily",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	},
+	"icon": "img/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ana-log/analog-ts-snippets.git"
+	},
+	"__metadata": {
+		"id": "bb49ee92-abef-464d-9382-ee9a0d5f7313",
+		"publisherDisplayName": "BossDaily",
+		"publisherId": "f4bd5668-2117-4845-9e96-0ebfd09425f0",
+		"isPreReleaseVersion": false
+	}
 }
