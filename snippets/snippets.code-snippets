@@ -577,7 +577,8 @@
       ".addSubcommand(subcommand =>",
       "  subcommand",
       "    .setName('name')",
-      "    .setDescription('description')"
+      "    .setDescription('description')",
+      ")"
     ],
     "description": "Subcommand"
   }
